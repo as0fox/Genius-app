@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayKG">
+        <item>kg to pounds</item>
+        <item>pounds to kg</item>
+        <item>km to miles</item>
+        <item>miles to km</item>
+        <item>km to meter</item>
+        <item>meter to km</item>
+
+
+    </string-array>
+</resources>

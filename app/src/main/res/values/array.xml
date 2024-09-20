@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array">
+        <item>Celsius to Fahrenheit</item>
+        <item>Fahrenheit to Celsius</item>
+        <item>Celsius To Kelvin</item>
+        <item>Fahrenheit To Kelvin</item>
+        <item>Kelvin To Fahrenheit</item>
+        <item>Kelvin To Celsius</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_0bb140f129a39deee92b9798c956783"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="88dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="20dp"
+        android:text="start"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="405dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="20dp"
+        android:text="\n\n\n\nDesigned by:Ahmed Al-Fararjeh \n\nSupervised by: Dr.Ayman Eyal Awwad"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:onClick="go"
+        android:id="@+id/button10"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="162dp"
+        android:background="@drawable/power_button__2_"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

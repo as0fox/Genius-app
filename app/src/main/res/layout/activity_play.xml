@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c1"
+    tools:context=".play">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#800100"
+        android:onClick="F_to_C"
+        android:text="Temperature Converter"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="7dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#800100"
+        android:onClick="age"
+        android:text="age calculator"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="2dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="next"
+        android:text="scientific Calculator"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="8dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="conv"
+        android:text="Weight and height converter"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="postx"
+        android:text="infix To Postfix,Prefix"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="1dp"
+        android:maxHeight="300dp"
+        android:minHeight="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brain4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="10dp"
+        android:width="122dp"
+        android:height="28dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+        android:text="Sereen Qasim"
+        android:textAlignment="center"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="135dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:width="122dp"
+        android:height="28dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#800100"
+        android:text="Ahmad Alfararjeh"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="79dp"
+            android:layout_height="82dp"
+            android:onClick="Finish"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/picsart_22_12_20_20_19_35_555" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#800100"
+        android:onClick="coin"
+        android:text="Converter coins"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <TextView
+        android:onClick="theme"
+        android:id="@+id/textView17"
+        android:layout_width="48dp"
+        android:layout_height="60dp"
+        android:background="@drawable/theme"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:width="266dp"
+        android:height="48dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#FFFFFF"
+
+
+        android:onClick="dictionary"
+        android:text="Words Dictionary"
+        android:textColor="#1A1A1A"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
